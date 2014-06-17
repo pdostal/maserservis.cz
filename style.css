@@ -9,20 +9,31 @@ Tags:
 
 /* Begin Typography & Colors */
 
+/* Positioning */
+
 html { font-family: sans-serif, tahoma, verdana, arial; font-size: 13px; overflow: auto; }
 body { width: 800px; margin: 12px auto; padding: 5px; }
 
-header { clear: both; margin-bottom: 5px; width: 150px; }
-header b { font-size: 1.75em; }
+header { clear: both; margin-bottom: 5px; width: 160px; text-align: center; }
+header b { font-size: 1.65em; }
 
-aside { width: 170px; float: left; }
+aside { width: 150px; float: left; padding-left: 10px; margin-bottom: 25px; }
 aside h1 { display: none; }
-aside ul { padding-left: 0px; }
-aside li { list-style: none; }
+aside ul { padding-left: 5px; }
+aside li { list-style: none; font-size: 1.30em; padding: 5px 0px; }
 
-header a,aside a { color: #000; text-decoration: none; }
+header a,aside a,footer a { color: #000; text-decoration: none; }
 
-#main { width: 600px; float: right; }
+#main { width: 585px; float: right; margin-bottom: 25px; padding: 15px; }
+#main p { margin: 0px; }
 
-footer { clear: both; text-align: center; }
+footer { margin: 0px auto; clear: both; text-align: center; width: 500px; padding: 5px; }
+
+/* Background */
+
+html { background-image: url('background.jpg'); background-repeat: no-repeat; background-attachment: fixed; background-position: center; }
+
+header,aside,#main,footer { background: #fff; border-radius: 10px; opacity: 0.5; }
+
+
 
