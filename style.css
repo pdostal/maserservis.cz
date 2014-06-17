@@ -7,3 +7,22 @@ Author URI: http://pdostal.cz/
 Tags:
 */
 
+/* Begin Typography & Colors */
+
+html { font-family: sans-serif, tahoma, verdana, arial; font-size: 13px; overflow: auto; }
+body { width: 800px; margin: 12px auto; padding: 5px; }
+
+header { clear: both; margin-bottom: 5px; width: 150px; }
+header b { font-size: 1.75em; }
+
+aside { width: 170px; float: left; }
+aside h1 { display: none; }
+aside ul { padding-left: 0px; }
+aside li { list-style: none; }
+
+header a,aside a { color: #000; text-decoration: none; }
+
+#main { width: 600px; float: right; }
+
+footer { clear: both; text-align: center; }
+
