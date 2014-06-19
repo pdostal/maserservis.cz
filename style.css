@@ -28,6 +28,7 @@ header a,aside a,footer a { color: #000; text-decoration: none; }
 #main { width: 805px; max-height: 425px; float: right; margin-bottom: 25px; padding: 15px; }
 #main img,#main iframe { opacity: 1; }
 #main p { margin: 0px; }
+#main .content>div { width: 50%; }
 
 footer { width: 100%; position: absolute; bottom: 15px; clear: both; }
 footer>span { display: block; margin: 0px auto; text-align: center; width: 500px; padding: 5px; }
