@@ -14,8 +14,9 @@ Tags:
 html { font-family: sans-serif, tahoma, verdana, arial; font-size: 13px; overflow: auto; }
 body { width: 1000px; margin: 12px auto; padding: 5px; }
 
-header { clear: both; margin-bottom: 5px; width: 160px; text-align: center; }
-header img { margin-top; 5px; }
+header { clear: both; margin-bottom: 5px; width: 160px; text-align: center; overflow: hidden; }
+header h1 { margin: 0px; }
+header img { margin: 5px auto 0px auto; width: 150px; }
 
 aside { width: 150px; float: left; padding-left: 10px; margin-bottom: 25px; }
 aside h1 { display: none; }
