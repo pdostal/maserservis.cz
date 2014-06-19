@@ -25,21 +25,22 @@ aside li { list-style: none; font-size: 1.30em; padding: 5px 0px; }
 
 header a,aside a,footer a { color: #000; text-decoration: none; }
 
-#main { width: 805px; float: right; margin-bottom: 25px; padding: 15px; }
+#main { width: 805px; max-height: 425px; float: right; margin-bottom: 25px; padding: 15px; }
 #main img,#main iframe { opacity: 1; }
 #main p { margin: 0px; }
 
-footer { margin: 0px auto; clear: both; text-align: center; width: 500px; padding: 5px; }
+footer { width: 100%; position: absolute; bottom: 15px; clear: both; }
+footer>span { display: block; margin: 0px auto; text-align: center; width: 500px; padding: 5px; }
 
 /* Background */
 
 html { background-color: #000; background-image: url('background.jpg'); background-repeat: no-repeat; background-attachment: fixed; background-position: center; }
 
-header,aside,#main,footer { background-color: rgba(255, 255, 255, 0.75); }
+header,aside,#main,footer>span { background-color: rgba(255, 255, 255, 0.75); }
 
 header,aside { border-top-right-radius: 10px; border-bottom-right-radius: 10px; }
 #main { border-top-left-radius: 10px; border-bottom-left-radius: 10px; }
-footer { border-radius: 5px; }
+footer>span { border-radius: 5px; }
 
 
 
