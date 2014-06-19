@@ -12,11 +12,11 @@ Tags:
 /* Positioning */
 
 html { font-family: sans-serif, tahoma, verdana, arial; font-size: 13px; overflow: auto; }
-body { width: 1000px; margin: 12px auto; padding: 5px; }
+body { width: 1024px; margin: 12px auto; padding: 5px; }
 
-header { clear: both; margin-bottom: 5px; width: 160px; text-align: center; overflow: hidden; }
+header { clear: both; margin-bottom: 5px; width: 160px; text-align: center; overflow: hidden; margin-bottom: 20px; }
 header h1 { margin: 0px; }
-header img { margin: 5px auto 0px auto; width: 150px; }
+header img { margin: 5px auto 0px auto; width: 150px; border: 0px solid #fff; }
 
 aside { width: 150px; float: left; padding-left: 10px; margin-bottom: 25px; }
 aside h1 { display: none; }
@@ -25,7 +25,7 @@ aside li { list-style: none; font-size: 1.30em; padding: 5px 0px; }
 
 header a,aside a,footer a { color: #000; text-decoration: none; }
 
-#main { width: 785px; float: right; margin-bottom: 25px; padding: 15px; }
+#main { width: 805px; float: right; margin-bottom: 25px; padding: 15px; }
 #main img,#main iframe { opacity: 1; }
 #main p { margin: 0px; }
 
