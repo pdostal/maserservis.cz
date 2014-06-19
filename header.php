@@ -13,5 +13,5 @@
   </head>
   <body>
     <header>
-      <h1><b><a href="<?php bloginfo('url'); ?>">Masér</b><br />servis s.r.o.</a></h1>
+      <h1><a href="<?php bloginfo('url'); ?>"><img src="<?php header_image(); ?>" alt="<?php bloginfo('name'); ?>" /></a></h1>
     </header>

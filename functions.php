@@ -5,4 +5,6 @@
         'before_title' => '<h1>', 'after_title' => '</h1>'
     ));
 
+    add_theme_support( 'custom-header', array( 'width' => 400, 'height' => 200, 'uploads' => true ) );
+
 ?>
